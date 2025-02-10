@@ -1,7 +1,5 @@
 ***Settings***
-Resource     ../../Resource/var.robot
 Resource     ../../Resource/set.robot
-Variables    ../../Resource/testdata.yaml
 
 ***Keywords***
 Doppee Delivery Product

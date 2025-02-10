@@ -2,6 +2,12 @@
 # Browser env
 ${url}                  https://training-platform.doppio-tech.com
 ${browser}              chrome
+# Registered user
+${login_user}           //input[@type='text']
+${login_pass}           //input[@type='password']
+${login_btn}            //button/span[text()='Login']
+${login_modal}          //div[@class='ant-modal-content']
+${login_modal_OK}       //button/span[text()='OK']
 # Registration page
 ${user_icon}            //span[@aria-label='user'][last()]
 ${sign_up}              //button[@type='button']/span[text()='Sign up']

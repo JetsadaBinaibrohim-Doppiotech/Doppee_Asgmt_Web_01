@@ -1,8 +1,5 @@
 ***Settings***
-Resource        ../Keywords/Feature/register_keyword.robot
-Resource        ../Keywords/Feature/searchitem_keyword.robot
-Resource        ../Keywords/Feature/deliveryitem_keyword.robot
-Resource        ../Keywords/Feature/payment_keyword.robot
+Resource     ../Resource/set.robot
 
 ***Test Cases***
 TC01 - Open Web Doppee
