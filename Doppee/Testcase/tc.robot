@@ -1,10 +1,11 @@
 ***Settings***
-Resource     ../Resource/set.robot
+Resource            ../Resource/set_up.robot
 
 ***Test Cases***
-TC01 - Open Web Doppee Until Cheack Product ID
-    [Tags]      Registeration
-    Doppe Website Register
-    Doppee Search Product
-    Doppee Delivery Product
-    Payment Product Method
+TC01 - Open Page Until Check Order
+    Open Doppee Website
+    Registeration Account
+    Searching Product
+    Delivery Infomation Product
+    Payment Method
+    Check Product Order Create
