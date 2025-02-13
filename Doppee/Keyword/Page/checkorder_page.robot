@@ -1,5 +1,5 @@
 ***Keywords***
-Go To Doppee Website
+Go To Home Page
     SeleniumLibrary.Click Element                       ${payment_continue} 
 Click Green User Icon
     SeleniumLibrary.Click Element                       ${user_icon}

@@ -4,4 +4,4 @@ Payment Method
     Input Payment Details
     Click Confirm Payment
     Pop-up Confirm Payment Success
-    Order Information Created
+    Check Order Information Created

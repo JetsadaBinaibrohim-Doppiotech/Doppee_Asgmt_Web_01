@@ -1,10 +1,11 @@
 ***Settings***
-Resource            ../Resource/set_up.robot
+Resource            ../import.robot
 
 ***Test Cases***
-TC01 - Open Page Until Check Order
+TC01 - Test Doppee Website Functional
+    [Tags] Website
     Open Doppee Website
-    Registeration Account
+    Registration Account
     Searching Product
     Delivery Infomation Product
     Payment Method
