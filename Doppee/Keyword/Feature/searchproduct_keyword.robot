@@ -1,6 +1,7 @@
 ***Keywords***
 Searching Product
-    Search Product On Search Bar
-    Click Search Icon Or Hit Enter Keyboard
-    Click On Product Card
-    Pop-up Confirm Product Added
+    searchproduct_page.Search Product Name On Search Bar  Coppee
+    searchproduct_page.Click Search Icon
+    searchproduct_page.Click On Product Card
+    searchproduct_page.Click Button Add To Cart
+    searchproduct_page.Pop-up Confirm Product Added

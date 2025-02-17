@@ -3,10 +3,7 @@ timeout : 5s
 
 #URL
 url_doppee    : "https://training-platform.doppio-tech.com"
-type_browser  : "gc"
-env_config    :
-  uat         : "https://training-platform.doppio-tech.com"
-  sit         : "https://doppee.doppio-tech.com"
+type_browser  : "chrome"
 
 #User
 username      : "Autotesting"
@@ -30,6 +27,6 @@ phone         : "0846667777"
 method : "Credit Card"
 creditnumber : "4111111111111111"
 type : "visa"
-exp : "01/2030"
+exp : "12/2060"
 cvc : "514"
 cardname : "Jetsada Bin-aibrohim"

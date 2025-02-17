@@ -1,5 +1,4 @@
 ***Keywords***
 Check Product Order Create
-    Go To Home Page
-    Click Green User Icon
-    Check Order Status 
+    header_menu_page.Click Green User Icon
+    checkorder_page.Check Order Status 
