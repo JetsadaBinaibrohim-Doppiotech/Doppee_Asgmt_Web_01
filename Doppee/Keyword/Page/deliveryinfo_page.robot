@@ -1,15 +1,23 @@
 ***Keywords***
 Input User Infomation Name
-    SeleniumLibrary.Input Text                          ${name_info}        ${name}
+    [Arguments]         ${info_name}
+    SeleniumLibrary.Wait Until Element Is Visible       ${name_info}        ${timeout}
+    SeleniumLibrary.Input Text                          ${name_info}        ${info_name}
 
-Input User Infomation Surname    
-    SeleniumLibrary.Input Text                          ${surname_info}     ${surname}
+Input User Infomation Surname  
+    [Arguments]         ${info_sername}
+    SeleniumLibrary.Wait Until Element Is Visible       ${surname_info}     ${timeout}
+    SeleniumLibrary.Input Text                          ${surname_info}     ${info_sername}
 
 Input User Infomation Address   
-    SeleniumLibrary.Input Text                          ${address_info}     ${address}
+    [Arguments]         ${info_address}
+    SeleniumLibrary.Wait Until Element Is Visible       ${address_info}     ${timeout}
+    SeleniumLibrary.Input Text                          ${address_info}     ${info_address}
 
 Input User Infomation Phone
-    SeleniumLibrary.Input Text                          ${phone_info}       ${phone}
+    [Arguments]         ${info_phone}
+    SeleniumLibrary.Wait Until Element Is Visible       ${phone_info}       ${timeout}
+    SeleniumLibrary.Input Text                          ${phone_info}       ${info_phone}
 
 Input User Infomation Email
     SeleniumLibrary.Wait Until Element Is Visible       ${email_info}       ${timeout}

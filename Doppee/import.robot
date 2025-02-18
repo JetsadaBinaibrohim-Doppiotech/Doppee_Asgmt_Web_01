@@ -1,6 +1,10 @@
 ***Settings***
 #Library Include
 Library             SeleniumLibrary
+Library             String
+Library             Collections
+Library             BuiltIn
+Library             re
 
 #Variables Data
 Variables           ./Resource/Testdata/data.yaml

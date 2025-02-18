@@ -1,5 +1,5 @@
 #time global
-timeout : 5s
+timeout : 30s
 
 #URL
 url_doppee    : "https://training-platform.doppio-tech.com"
