@@ -1,0 +1,12 @@
+# ไม่ติดตามไฟล์ที่ระบุ
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+*.log
+*.html
+*.xml
+/log_data/

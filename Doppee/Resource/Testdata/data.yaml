@@ -1,0 +1,32 @@
+#time global
+timeout : 30s
+
+#URL
+url_doppee    : "https://training-platform.doppio-tech.com"
+type_browser  : "chrome"
+
+#User
+username      : "Autotesting"
+domain        : "@gmail.com"
+password      : "Auto100*"
+
+#Product
+product       : "phone"
+product_name  : "Coppee phone 1"
+price         : "49980"
+total         : "Total : 49980 THB"
+qty           : "1"
+
+#Delivery infomation
+name          : "Jetsada"
+surname       : "Bin-aibrohim"
+address       : "Thailand,Samutphakran"
+phone         : "0846667777"
+
+#Payment method
+method : "Credit Card"
+creditnumber : "4111111111111111"
+type : "visa"
+exp : "12/2060"
+cvc : "514"
+cardname : "Jetsada Bin-aibrohim"

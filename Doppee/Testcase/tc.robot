@@ -1,19 +1,12 @@
 ***Settings***
-Resource        ../Keywords/Feature/register_keyword.robot
-Resource        ../Keywords/Feature/searchitem_keyword.robot
-Resource        ../Keywords/Feature/deliveryitem_keyword.robot
-Resource        ../Keywords/Feature/payment_keyword.robot
+Resource            ../import.robot
 
 ***Test Cases***
-TC01 - Open Web Doppee
-    [Tags]      Register
-    Doppe Website Register
-TC02 - Search Product
-    [Tags]      Search
-    Doppee Search Product
-TC03 - Delivery Product
-    [Tags]      Delivery
-    Doppee Delivery Product
-TC04 - Payment Product
-    [Tags]      Payment
-    Payment Product Method
+TC01 - User Registration Success And Complete Order Process with Payment Validation
+    [Tags]              Website
+    commom_keyword.Open Doppee Website
+    register_keyword.Registration Account With Random Data Generation       
+    searchproduct_keyword.Searching Product                                   
+    deliveryinfo_keyword.Delivery Infomation Product
+    payment_keyword.Payment Method
+    checkorder_keyword.Check Product Order Create

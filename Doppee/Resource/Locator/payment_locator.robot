@@ -1,0 +1,12 @@
+***Variables***
+${pay_button}           //button/span[text()='PAY']
+${creditcard_method}    //label//input[@value='creditCard']
+${next_button}          //button/span[text()='Next']
+${card_number}          //input[@id='basic_bin']
+${exp_date}             //input[@id='basic_exp'] 
+${cvc_code}             //input[@id='basic_cvc']
+${card_owner}           //input[@id='basic_owner']
+${Confirm_button}       //button/span[text()='Confirm Payment']
+${payment_modal}        //div[@class='ant-modal-content']
+${payment_modal_ok}     //button/span[text()='OK']
+${payment_deteils}      //div[@class='success-description']
